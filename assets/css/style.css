@@ -11,14 +11,15 @@ css-doodle {
   left: 0;
   z-index: 1;
 }
-/*
-.name {
-  font-family: 'Pixelify Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
+#name {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: rgb(42, 9, 255);
+    font-weight: bolder;
+  
 }
-*/
+
+
+
 main {
   width: 100vw;
   height: 100vh;
