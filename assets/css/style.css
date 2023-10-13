@@ -8,8 +8,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /* to be Ensure it stays behind the content */
+    z-index: 1; /* to be Ensure it stays behind the content */
   }
+  
   
   main {
     width: 100vw;
@@ -42,6 +43,8 @@ body {
     align-items: center;
     padding: 19px;
     text-align: center;
+    position: relative;
+    z-index: 2;
   }
   
 
@@ -67,4 +70,54 @@ body {
     color: #fbff00;  
   }
   
- 
+  .hr1 {
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background: url("/assets/img/bg-try-5.png")  /* Adjust URL to your new divider image path */
+      no-repeat center;
+    margin: 12px 0;
+  }
+  
+  .card-main {
+    padding: 0 25px;
+  }
+  
+  .card-main p {
+    font-size: 14px;
+  }
+  
+  #information-button {
+    margin-bottom: 18px;
+    border-radius: 6px;
+    padding: 12px;
+    background: #c1b484
+      no-repeat center;
+    transition-duration: 0.5s;
+  }
+  #information-button:hover {
+    background-color: #ffa702;  
+  }
+  
+  #information-button p {
+    margin: 0;
+    color: #333333;  
+    font-size: 13px;
+  }
+  
+  #icons i {
+    color: #000000;  
+    background-color: #ffffff;  
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.25s ease-in-out;
+    font-size: 15px;
+    line-height: 32px;
+  }
+  
+  #icons i:hover {
+    background-color: #ff8800;  
+  }
+  
