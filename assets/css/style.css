@@ -9,7 +9,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1; /* to be Ensure it stays behind the content */
+    z-index: 1; /* To be Ensure it stays behind the content */
   }
   
   
@@ -55,7 +55,7 @@ body {
   }
   
   #card:hover {
-    transform: scale(1.05); /* Adjust the scale value as needed */
+    transform: scale(1.05); 
 }
 
   
@@ -88,7 +88,7 @@ body {
     border: 0;
     height: 2px;
     width: 100%;
-    background: url("/assets/img/bg-try-5.png")  /* Adjust URL to your new divider image path */
+    background: url("/assets/img/bg-try-5.png") 
       no-repeat center;
     margin: 12px 0;
   }
