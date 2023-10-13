@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
   }
   css-doodle {
     display: block;
@@ -10,6 +11,7 @@ body {
     left: 0;
     z-index: 1; /* to be Ensure it stays behind the content */
   }
+  
   
   
   main {
@@ -54,8 +56,6 @@ body {
   img {
     width: 210px;
     height: 210px;
-    border-radius: 50%;
-    border: 5px solid #b5b5b5; 
   }
   
   .title h1 {
@@ -67,9 +67,15 @@ body {
     font-size: 16px;
     font-weight: 500;
   }
+
+  #about p {
+    font-weight: bolder;
+  }
+
   
   #name {
     color: #fbff00;  
+    font-family: 'Pixelify Sans', sans-serif;
   }
   
   .hr1 {
@@ -105,6 +111,7 @@ body {
     margin: 0;
     color: #333333;  
     font-size: 13px;
+    font-weight: bolder;
   }
   
   #icons i {
