@@ -19,7 +19,11 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-  
+  a{
+    font: bold;
+    text-decoration: none;
+    color: #ff0000;
+  }
   
   section {
     width: 520px;
