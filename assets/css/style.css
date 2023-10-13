@@ -12,8 +12,6 @@ body {
     z-index: 1; /* To be Ensure it stays behind the content */
   }
   
-  
-  
   main {
     width: 100vw;
     height: 100vh;
@@ -100,7 +98,40 @@ body {
   .card-main p {
     font-size: 14px;
   }
-  
+
+  #contact-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.contact-btn:first-child {
+  margin-right: 25px;  
+}
+
+.contact-btn {
+    background-color: #FEF9E7;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    background-color: #ff8800;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+ /* 
   #information-button {
     margin-bottom: 18px;
     border-radius: 6px;
@@ -112,7 +143,7 @@ body {
     background: url(/assets/img/bg-try-5.png)
        center;
   }
-  
+  */
   #information-button p {
     margin: 0;
     color: #333333;  
