@@ -100,11 +100,11 @@ img {
 }
 
 #contact-toggle:checked ~ #contact-details {
-  max-height: 200px;
+  max-height: 30px;
 }
 
 #about-toggle:checked ~ #about-details {
-  max-height: 200px;
+  max-height: 30px  ;
 }
 
 #contact-toggle:checked ~ .toggle-wrapper #about-toggle:not(:checked) + .toggle-label + #about-details {
