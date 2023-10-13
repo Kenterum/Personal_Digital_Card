@@ -47,8 +47,6 @@ body {
     z-index: 2;
   }
   
-
-
   img {
     width: 210px;
     height: 210px;
@@ -91,12 +89,12 @@ body {
     margin-bottom: 18px;
     border-radius: 6px;
     padding: 12px;
-    background: #c1b484
+    background: url(/assets/img/bg-try-5.png)
       no-repeat center;
-    transition-duration: 0.5s;
+    transition: all 0.5s;
   }
   #information-button:hover {
-    background-color: #ffa702;  
+    background: #FEF9E7;  
   }
   
   #information-button p {
