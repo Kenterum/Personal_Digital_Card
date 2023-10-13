@@ -1,65 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/img/icons/favicon.png">
 
-    <!-- This Place Will Change. Only Pasted for learning  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-        <title>Suleyman Mammadov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+
+
+    <!-- Haikei.app -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bansal.io -->
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    
+
+    <title>Suleyman Mammadov</title>
 </head>
 
 <body>
     <main>
         <section>
-          <span></span>
-          <div id="card">
+            <span></span>
+            <div id="card">
 
-    <img width="64" src="/assets/img/profilepic.png" >
-    
-
-
-<!-- Home -->
-    <div class="title">
-    <h1>Hi! I'm <span id="name">Suleyman Mammadov</span></h1>
-    <h2>Junior IT Student</h2>
-    </div>
-
-<!-- About Me -->
-    <div id="about">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nemo! </p>
-    </div>
-
-    <div id="information-button">
-    <p>email: suleymammadov@gmail.com  / phone:+994 070-5555-666</p>
-     </div>
-
-    <div id="icons"> 
-
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-linkedin-in"></i>
-    <i class="fa-brands fa-github"></i>
-
-  </div>
+                <img width="64" src="/assets/img/profilepic.png">
 
 
 
-<!-- Footer(indilik lazim deyil) -->
-<footer>
-</footer>
+                <!-- Title Class  -->
+                <!-- Name-->
+
+
+                <div class="title">
+                    <h1>Hi! I'm <span id="name">Suleyman Mammadov</span></h1>
+                    <h2>Junior IT Student</h2>
+                </div>
+
+                <!-- About -->
+                <div id="about">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nemo! </p>
+                </div>
+                <!-- Information-Button -->
+                <div id="information-button">
+                    <p>email: suleymammadov@gmail.com / phone:+994 070-5555-666</p>
+                </div>
+
+
+                <!-- Icons -->
+
+                <div id="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-github"></i>
+
+                </div>
+
+
+
+                <!-- Footer(indilik lazim deyil) -->
+                <footer>
+                </footer>
 
             </div>
         </section>
     </main>
+   
+    <script src="https://unpkg.com/css-doodle@0.37.3/css-doodle.min.js"></script>
 </body>
-
+<css-doodle click-to-update>
+    <style>
+      @grid: 1 / 100vw 100vh / #0a0c27;
+      background-size: 200px 200px;
+      background-image: @doodle(
+        @grid: 6 / 100%;
+        @size: 4px;
+        font-size: 4px;
+        color: hsl(@r240, 30%, 50%);
+        box-shadow: @m3x5(
+          calc(4em - @nx * 1em) calc(@ny * 1em)
+            @p(@m3(currentColor), @m2(transparent)),
+          calc(2em + @nx * 1em) calc(@ny * 1em)
+            @lp
+        );
+      );
+    </style>
+  </css-doodle>
+  
 </html>
